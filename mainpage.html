@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="styles.css">
+	<title>Liesl's Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+</head>
+<body>
+	<nav class="navbar navbar-expand-xl">
+		<a class="nav nav-brand">
+			<a href="mainpage.html">
+				<img src="logo.jpg" class="rounded-circle" width="50px">
+			</a>
+		</a>
+		<div class="container-fluid">
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link active" href="mainpage.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page2.html">1st Quarter Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page3.html">2nd Quarter Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://pascual-ll.github.io/3Q-Project/index.html">3rd Quarter Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="index.html">Log-in</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search mb-3">
+			<form class="d-flex mt-3">
+				<input type="text" class="form-control" id="inputSearch" placeholder="Search">
+				<button class="btn btn-primary">🔍</button>
+			</form>
+		</div>
+	</nav>
+	<script type="text/javascript">
+		function blurb() {
+			document.getElementById("desc").innerHTML=("Click the navbar links to see my Quarter Projects from SY 2023-2024.");
+		}
+	</script>
+	<div class="main">
+		<div class="row">
+			<div class="col-mt-12">
+				<img src="logo.jpg" class="rounded-circle mt-5 mb-5" width="200px">
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-mt-12">
+				<h1>My Online Portfolio</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-sm-12">
+				<button type="Submit" onclick="blurb()">Description</button>
+			</div>
+		</div>
+		<div class="row mt-2">
+			<div class="col-mt-12 description">
+				<p id="desc"></p>
+			</div>
+		</div>
+	</div>
+	<center>
+	<div class="comments">
+		<h5 class="header">Comment Section:</h5>
+		<form class="d-flex mt-3">
+				<input type="text" class="form-control" id="inputSearch" placeholder="Input comments here...">
+				<button class="btn btn-primary">Post</button>
+			</form>
+	</div>
+	</center>
+	<div class="footer">
+		<h4>Socials:</h4>
+		<p> ⋆ <a href="https://www.instagram.com/daisy.delicate/">Instagram</a> ⋆ <a href="https://www.facebook.com/profile.php?id=100088156402210">Facebook</a> ⋆
+	</div>
+</body>
+</html>

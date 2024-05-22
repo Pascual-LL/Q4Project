@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+	<title>Liesl's Portfolio</title>
+	<link rel="icon" type="image/x-icon" href="logo.jpg">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Cedarville+Cursive&family=Pacifico&family=Special+Elite&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:ital,wght@0,400..700;1,400..700&display=swap" rel="stylesheet">
+	<style>
+		body {
+			background-image: url(https://media.istockphoto.com/id/1187716877/photo/white-lines-paper-school-background.jpg?s=612x612&w=0&k=20&c=QjaCYfYqRS6kjbscIb7W7tfFvyBzv0ojNAudCUqorMU=);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			font-family: 'Pacifico', cursive;
+		}
+		.headermain {
+			text-align: center;
+			color: lightgoldenrodyellow;
+			padding: 10px;
+			border: double lightgoldenrodyellow 4px;
+			background: #00b09b;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #96c93d, #00b09b);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #96c93d, #00b09b); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-webkit-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-moz-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+		}
+		.introduction {
+			text-align: center;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: Cedarville Cursive, cursive;
+			font-size: 25px
+		}
+		.containermain {
+			place-content: center;
+			text-align: center;
+			display: flex;
+			flex-wrap: wrap;
+			font-family: 'Swanky and Moo Moo', cursive;
+		}
+		.subheader {
+			text-align: center;
+			font-family: 'Pacifico', cursive;
+			font-size: 20px;
+			width: 400px;
+			padding: 2px;
+			border: double lightgoldenrodyellow 4px;
+			background: #22c1c3;  /* fallback for old browsers */
+			background: -webkit-linear-gradient(to right, #fdbb2d, #22c1c3);  /* Chrome 10-25, Safari 5.1-6 */
+			background: linear-gradient(to right, #fdbb2d, #22c1c3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+			box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-webkit-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-moz-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+		}
+
+		.containermain .text {
+			font-size: 20px;
+			background-image: url(https://i.pinimg.com/originals/e3/22/a8/e322a8ad36f8d7cf4718b8037bf34969.jpg);
+			width: 300px;
+			padding: 10px;
+			margin: 10px;
+		}
+		.containermain .picture {
+			background-color: floralwhite;
+			width: 300px;
+			padding-left: 10px;
+			padding-right: 10px;
+			padding-top: 10px;
+			padding-bottom: 40px;	
+			margin: 10px;
+
+			box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-webkit-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);
+			-moz-box-shadow: -7px 10px 36px -1px rgba(44,77,65,0.75);		
+		}
+		.containermain .picture img {
+			width: 280px;
+		}
+		.containermain .picture .picturenote {
+			font-size: 25px;
+			font-family: Cedarville Cursive, cursive;
+		}
+		.references {
+			font-size: 20px;
+			font-family: Special Elite, cursive;
+			background-image: url(https://i.pinimg.com/originals/e3/22/a8/e322a8ad36f8d7cf4718b8037bf34969.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-position: center;
+			padding: 5px;
+			margin: 10px;
+		}
+		.tabs {
+			padding: 5px;
+			background-color: floralwhite;
+			font-family: "Lora", cursive;
+		}
+		.container-fluid {
+			padding: 5px;
+			background-color: floralwhite;
+			font-family: "Lora", cursive;
+		}
+	</style>
+</head>
+<body>
+	<nav class="navbar navbar-expand-xl tabs">
+		<a class="nav nav-brand">
+			<a href="mainpage.html">
+				<img src="logo.jpg" class="rounded-circle" width="50px">
+			</a>
+		</a>
+		<div class="container-fluid header tabs">
+			<ul class="nav nav-tabs">
+				<li class="nav-item">
+					<a class="nav-link" href="mainpage.html">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="page2.html">1st Quarter Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link active" href="page3.html">2nd Quarter Project</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="https://pascual-ll.github.io/3Q-Project/index.html">3rd Quarter Project</a>
+				</li>
+			</ul>
+		</div>
+		<div class="search tabs mb-3">
+			<form class="d-flex mt-3">
+				<input type="text" class="form-control" id="inputSearch" placeholder="Search">
+				<button class="btn btn-primary">🔍</button>
+			</form>
+		</div>
+	</nav>
+	<script type="text/javascript">
+		window.alert("Are you ready to see the wonders of the Philippines?");
+	</script>
+	<div class="headermain">
+		<h1>Photo Journal Entry: Wonders of Visayas</h1>
+	</div>
+	<br />
+	<hr/>
+	<div class="introduction">
+	<p>Visayas, one of the three main island groups in the Philippines, is located in between Luzon and Mindanao. It has plenty of cultural sites, and beautiful environments.</p>
+	</div>
+	<hr/>
+	<br />
+	<div class="subheader">
+		<h2>Nature:</h2>
+	</div>
+	<div class="containermain">
+		<div class="text">
+			<h3>Boracay Beach</h3>
+			<p>This long stretch of white sand and blue water is etched onto my mind. From the soft sand, to a beautiful view, it's no wonder it's such a popular destination.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://gttp.imgix.net/254227/x/0/guide-to-white-beach-in-boracay-island-activities-station-1-hotels-best-time-to-go-3.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"></p>
+		</div>
+		<div class="text">
+			<h3>Chocolate Hills</h3>
+			<p>The chocolate hills, located in Bohol, are a collection of oh so many smooth brown hills, resembling chocolate, like its name.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://gttp.imgix.net/408162/x/0/bohol-s-world-famous-chocolate-hills.jpg?w=360&h=210&fit=crop&crop=center&auto=compress&q=32&dpr=2&fm=pjpg&ixlib=react-9.4.0"></p>
+		</div>
+		<div class="text">
+			<h3>Hinagdanan Cave</h3>
+			<p>The word "Hinagdanan" means laddered in Cebuano. To enter, one must use stairs leading to a small cave filled with limestone.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://gttp.imgix.net/310915/x/0/15-must-visit-visayas-tourist-spots-boracay-white-beach-cebu-diving-bohol-countryside-5.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"></p>
+		</div>
+	</div>
+	<br />
+	<div class="subheader">
+		<h2>Marvelous Animals:</h2>
+	</div>
+	<div class="containermain">
+		<div class="text">
+			<h3>Tarsier</h3>
+			<p>The smallest primate in the world, this species is endemic to the Philippines. Small, yet wide eyed, many of them can be found in Bohol.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://r5t3s4r6.rocketcdn.me/wp-content/uploads/2023/05/bohol-tarsier-sanctuary.jpg"></p>
+			<div class="picturenote">
+				<p>so adorable!</p>
+			</div>
+		</div>
+		<div class="text">
+			<h3>Pawikan</h3>
+			<p>These sea turtles are known for their beautiful shells. They are endangered, which is why we must take extra care to preserve and care for them.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://mb.com.ph/wp-content/uploads/2022/12/PAWIKAN-PLIGHT-The-extinction-of-the-Green-Sea-Turtle-commonly-known-in-the-Philippines-as-Pawikan-is-still-a-major-problem-in-the-country-Giorgia-Doglioni.jpg"></p>
+		</div>
+				<div class="text">
+			<h3>Siquijor Buttterfly Sanctuary</h3>
+			<p>Located in Siquijor province, this sanctuary has beautiful and colorful butterflies.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/16/d3/c0/d7/siquijor-butterfly-sanctuary.jpg?w=1200&h=1200&s=1"></p>
+		</div>
+		</div>
+	</div>
+		<br />
+	<div class="subheader">
+		<h2>Religion:</h2>
+	</div>
+	<div class="containermain">
+		<div class="text">
+			<h3>Basilica del Santo Nino</h3>
+			<p>Located in Cebu City, this church houses the Santo Nino. It is an old religious site filled with architectural detail.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://dynamic-media-cdn.tripadvisor.com/media/photo-o/13/19/ff/8d/20180525-134655-01-largejpg.jpg?w=1000&h=-1&s=1"></p>
+		</div>
+		<div class="text">
+			<h3>Simala Shrine</h3>
+			<p>Simala Shrine, a. k. a. The Monastery of the Holy Eucharist, is a grand religious site mostly dedicated to the Blessed Virgin Mary.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://gttp.imgix.net/198526/x/0/simala-shrine-1.jpg?auto=compress%2Cformat&ch=Width%2CDPR&dpr=1&ixlib=php-3.3.0&w=883"></p>
+			<div class="picturenote">
+				<p>beautiful gardens!</p>
+			</div>
+		</div>
+		<div class="text">
+			<h3>Taoist Temple</h3>
+			<p>This temple with Chinese architecure, located in Cebu, is a very popular religious site. There are 81 steps, for 81 chapters of the Taoism scripture.</p>
+		</div>
+		<div class="picture">
+			<p><img src="https://discoverthephilippines.info/wp-content/uploads/2020/12/640px-Year_of_The_Dragon.jpg"></p>
+		</div>
+	</div>
+	<br />
+	<hr/>
+	<br />
+	<div class="references">
+		<h2>References:</h2>
+		<ul>
+			<li><a href="https://fonts.google.com/share?selection.family=Cedarville+Cursive|Pacifico|Special+Elite|Swanky+and+Moo+Moo">Fonts</a></li>
+			<li><a href="https://www.photos-public-domain.com/2011/11/29/light-brown-or-tan-paper-texture-with-flecks/">Brown Paper Background</a></li>
+			<li><a href="https://www.istockphoto.com/search/2/image-film?phrase=notebook+paper">Notebook Paper Background</a></li>
+			<li><a href="https://guidetothephilippines.ph/articles/ultimate-guides/boracay-white-beach-guide">Boracay</a></li>
+			<li><a href="https://guidetothephilippines.ph/trips-and-experiences/bohol-countryside-tours/bohol-chocolate-hills-countryside-tour-loboc-river-lunch-with-transfer">Chocolate Hills</a></li>
+			<li><a href="https://guidetothephilippines.ph/destinations-and-attractions/hinagdanan-cave">Hinagdanan Cave</a></li>
+			<li><a href="https://mb.com.ph/2022/12/02/god-save-the-turtles-cry-gen-z-so-we-will/">Pawikan</a></li>
+			<li><a href="https://www.tripadvisor.com/Attraction_Review-g664445-d1549926-Reviews-Siquijor_Butterfly_Sanctuary-Siquijor_Island_Visayas.html">Butterfly Sanctuary</a></li>
+			<li><a href="https://www.kkday.com/en-ph/product/20007">Tarsier</a></li>
+			<li><a href="https://www.tripadvisor.com.ph/ShowUserReviews-g298460-d320854-r890956890-Basilica_del_Santo_Nino-Cebu_City_Cebu_Island_Visayas.html">Basilica del Santo Nino</a></li>
+			<li><a href="https://guidetothephilippines.ph/destinations-and-attractions/simala-shrine">Simala Shrine</a></li>
+			<li><a href="https://discoverthephilippines.info/cebu-taoist-temple/">Taoist Temple</a></li>
+		</ul>
+		<h2>Liesl L. Pascual | 9 - Sapphire</h2>
+	</div>
+	<div class="footer">
+		<h4>Socials:</h4>
+		<p> ⋆ <a href="https://www.instagram.com/daisy.delicate/">Instagram</a> ⋆ <a href="https://www.facebook.com/profile.php?id=100088156402210">Facebook</a> ⋆
+	</div>
+</body>
+</html>
